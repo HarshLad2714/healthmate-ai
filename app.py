@@ -4,7 +4,7 @@ from google import genai
 from google.genai import types
 
 # ---------- Config ----------
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")  # change if a newer model is available
+MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")  # change if a newer model is available
 
 SYSTEM_PROMPT = """You are HealthMate AI, a friendly health information assistant for people in India.
 
